@@ -1,0 +1,16 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap');
+
+body {
+  font-family: 'Inter', sans-serif;
+}
+
+.mesh-bg {
+  pointer-events: none;
+  position: fixed;
+  inset: 0;
+  z-index: 0;
+  opacity: 0.13;
+  background: url('data:image/svg+xml;utf8,<svg width="100%" height="100%" viewBox="0 0 400 400" fill="none" xmlns="http://www.w3.org/2000/svg"><rect x="0" y="0" width="400" height="400" fill="none"/><path d="M0 80 Q100 140 200 80 T400 80" stroke="%231793e6" stroke-width="1.2" fill="none"/><path d="M0 200 Q100 260 200 200 T400 200" stroke="%230e4a7b" stroke-width="1.2" fill="none"/><path d="M0 320 Q100 370 200 320 T400 320" stroke="%231793e6" stroke-width="1.2" fill="none"/></svg>'); 
+  background-size: cover;
+  background-repeat: no-repeat;
+}
