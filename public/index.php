@@ -6,5 +6,6 @@ if (!empty($_SESSION['user'])) {
     exit;
 }
 
+echo "Test";
 header('Location: login.php');
 exit;
